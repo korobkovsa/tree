@@ -36,7 +36,6 @@ class TestMerge(unittest.TestCase):
         
         d = {"iterable1": [1, 5, 9], "iterable2":[2, 5], "iterable3": [1, 6, 10, 11]}     
         self.assertEqual(merge(**d), [1, 1, 2, 5, 5, 6, 9, 10, 11])
-
-        pass
+     
 if __name__ == '__main__':
     unittest.main()
